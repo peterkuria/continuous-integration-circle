@@ -2,7 +2,7 @@ version: 2.1
 executors:
   ci-executor:
     docker:
-      - image: REPLACE-ME-WITH-DOCKER-IMAGE
+      - image: circleci/ruby:2.6.4-alpine3.10
 jobs:
   build:
     executor: ci-executor
