@@ -2,4 +2,4 @@ version: 2.1
 executors:
   ci-executor:
     docker:
-      - image: circleci/ruby:2.4.2-jessie-node
+      - image: githubtraining/ci-custom:latest
